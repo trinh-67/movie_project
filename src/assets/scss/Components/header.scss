@@ -1,0 +1,90 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    .navbar-collapse {
+        flex-direction: row-reverse; 
+        .nav-item {
+            position: relative;
+            &.active::after {
+                width: 100%;
+            }
+            &:hover::after{
+                width: 100%;
+            }
+            &::after{
+                content: "";
+                width: 0;
+                height: 3px;
+                background-image: linear-gradient(to right, #fbbd61, #ec7532);
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -o-transition: all 0.5s;
+            }
+            .nav-link {
+                // color: #fff;
+                font-size: 16px;
+                // text-transform: uppercase;
+                padding: 0 20px 10px;
+                font-weight: 600;
+            }
+        }
+    }
+    .img-avatar {
+        width: 30px;
+        margin-right: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .user {
+        .logout {
+            background: #959595;
+            position: absolute;
+            bottom: -70px;
+            right: 0;
+            display: none;
+            text-align: center;
+            padding-bottom: 10px;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                background: #fbbd61;
+                width: 30px;
+                height: 3px;
+                left: 0;
+            }
+            .profile {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        &:hover .logout {
+            display: block;
+        }
+        .btn-logout {
+            color: #fff;
+            width: 145px;
+            z-index: 1000;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+        }
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+        color: #ec7532;
+    }
+}

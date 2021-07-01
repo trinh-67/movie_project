@@ -1,0 +1,64 @@
+.f-infor-bottom {
+    img {
+        width: 55%;
+    }
+}
+
+.footer-inner {
+    background: url(../../images/backapp.jpg)no-repeat center;
+    background-size: cover;
+    padding: 120px 0px;
+   .footer-left {
+       padding-top: 60px;
+       color: #fff;
+      .ttl-2 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 30px;
+      } 
+      .btn-dowload {
+        margin: 30px 0;
+      }
+      .txt-update {
+          a {
+              color:#fff;
+              text-decoration: underline;
+              &:hover {
+                  color:#ec7532;
+                  transition: all ease 0.5s;
+                  -webkit-transition: all ease 0.5s;
+                  -moz-transition: all ease 0.5s;
+                  -ms-transition: all ease 0.5s;
+                  -o-transition: all ease 0.5s;
+        }
+          }
+      }
+   } 
+   .footer-right {
+       position: relative;
+       text-align: center;
+       .img-wrap {
+           width: 44%;
+           height: auto;
+           overflow: hidden;
+           position: relative;
+       }
+       .app-img {
+           position: absolute;
+           left: 30%;
+           bottom: -20%;
+           top: 1%;
+           width: 40%;
+           text-align: center;
+           img {
+               height: auto;
+               border-radius: 25px;
+               -webkit-border-radius: 25px;
+               -moz-border-radius: 25px;
+               -ms-border-radius: 25px;
+               -o-border-radius: 25px;
+            }
+       }
+   }
+}

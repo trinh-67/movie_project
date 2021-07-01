@@ -1,0 +1,22 @@
+[
+  {
+    "comment": "Phim này hay lắm, rất đáng để coi!",
+    "rating": 10,
+    "user": "Bảo"
+  },
+  {
+    "comment": "phim hơi nhạt, mọi người cân nhắc trước khi coi phim!",
+    "rating": 5,
+    "user": "Bình an"
+  },
+  {
+    "comment": "Phim hay",
+    "rating": 8,
+    "user": "Ticket"
+  },
+  {
+    "comment": "Phim hay xuất sắc",
+    "rating": 10,
+    "user": "Sĩ"
+  }
+]

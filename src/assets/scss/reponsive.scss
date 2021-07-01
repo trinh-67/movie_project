@@ -1,0 +1,275 @@
+@media screen and (min-width: 992px) and (max-width: 1999px) {
+    .search-home .form-search select {
+        min-width: 200px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .block-news .block-news-img .img-news {
+        height: 183px;
+    }
+}
+@media screen and (min-width: 788px) and (max-width: 882px) {
+    .listmovie {
+        .slick-prev, .slick-next {
+            width: 30px;
+            height: 30px;
+            z-index: 999
+        }
+        .slick-prev:before, .slick-next:before {
+            font-size: 35px;
+        }
+        .slick-prev {
+            left: -42px;
+        }
+        .slick-next {
+            right: -38px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .search-home  {
+        display: none;
+    }
+    .listmovie {
+        margin-top: 25px;
+    }
+    .logo-brand .row {
+        flex-wrap: normal;
+    }
+    .footer .footer-infor .col {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider-home {
+        .video-play-slider {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .slick-dots {
+            bottom: 25px;
+        }
+    }
+    .content-show .movie-item .movie-img img {
+        height: 255px;
+    }
+    .listmovie {
+        .slick-prev, .slick-next {
+            width: 30px;
+            height: 30px;
+            z-index: 999
+        }
+        .slick-prev:before, .slick-next:before {
+            font-size: 35px;
+        }
+        .slick-prev {
+            left: -34px;
+        }
+        .slick-next {
+            right: -34px;
+        }
+    }
+    .listmovie .slick-list {
+        margin: 0 -10px;
+    }
+    .listmovie {
+        margin-bottom: 35px;
+        padding: 0 50px;
+    }
+    .cinema-block  {
+        .theater-img {
+            img {
+                height: 80px;
+                object-fit: cover;
+            }
+        }
+        .tab-content-bl {
+            border-left: none;
+            &.scroll-tab {
+                height: 100%;
+                max-height: 100%;
+            }
+        } 
+        .sroll-tab {
+            height: 100%;
+            max-height: 100%;
+        }
+        .cinema-inner {
+            .col-11 {
+                max-width: 100%;
+                flex: 0 0 100%;
+                overflow-y: auto;
+                height: 700px;
+            }
+            margin-bottom: 35px;
+            .showtime-movie .block-time .time-movie p span {
+                font-size: 16px;
+            }
+            .show-logo .nav-pills .nav-link {
+                margin: 0 10px;
+            }
+            .show-logo {
+                border-bottom: 1px solid #dee2e6;
+                border-right: none;
+                margin: 0 0 0 -10px;
+                .nav-pills {
+                    justify-content: center;
+                    .nav-link {
+                        border-bottom: none;
+                        padding: 10px 0;
+                        img {
+                            max-width: 40px;
+                        }
+                    }
+                }
+            }
+            .showtime-movie {
+                .wrap-infor {
+                    max-width: 78%;
+                    p {
+                        font-size: 14px;
+                    }
+            
+                }
+                .movie-img {
+                    max-width: 18%;
+                }
+            }
+        }
+    }
+    .block-news {
+        margin-bottom: 25px;
+    }
+    .btn-all.active {
+        padding: 7px 10px;
+    }
+    .footer-inner {
+        padding: 40px 0;
+        .footer-left {
+            padding-top: 0;
+            .ttl-2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .footer-infor {
+        padding: 20px 0;
+        .block-footer, .social {
+            margin-bottom: 15px;
+        }
+    }
+    .nav-pills .nav-link {
+        font-size: 14px;
+    }
+    // page details 
+    .movie-dt-showtime {
+        padding-bottom: 25px;
+        .cinema-block .cinema-inner .showtime-movie .movie-img {
+            width: 70px;
+        }
+        .dayofweek {
+            margin: 0 15px;
+        }
+        .review {
+            max-width: 100%;
+        }
+        .cinema-block {
+            .show-logo {
+                .nav-link .cinema-name {
+                    display: none;
+                }
+                .nav-pills {
+                    display: flex;
+                }
+            }
+        }
+    }
+    //end page details
+
+    //page checkout
+    .chooseseat {
+        .chooseseat-buy {
+            .ttl-4 {
+                font-size: 24px;
+            }
+            .form-buy .btn-buy {
+                margin-top: 40px;
+            }
+        }
+        .chooseseat-infor {
+            margin-bottom: 30px;
+            .bookseat {
+                padding: 0;
+            }
+        }
+    }
+    //End page checkout
+    .header {
+        .navbar-expand-lg {
+            padding: 5px 15px;
+            .navbar-toggler {
+                padding: 5px;
+                border: 0;
+                .navbar-toggler-icon {
+                    width: 1.2em;
+                    height: 1.2em;
+                    vertical-align: super;
+                }
+            }
+        }
+        .navbar-brand {
+            img {
+                width: 160px;
+            }
+        }
+    }
+    .slider-home {
+        margin-top: 62px;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .block-new-col {
+        margin: 0 15px; 
+    }
+    .chooseseat {
+        .chooseseat-buy {
+            position: relative;
+        }
+        .chooseseat-infor .infor-theater {
+            display: block;
+        }
+    }
+    .footer .footer-infor .col {
+        padding: 0 15px;
+     }
+    //login page
+    .inner-bg-user .form-user {
+        padding: 20px;
+        margin: 0 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .cinema-block .cinema-inner .show-logo .nav-pills .nav-link {
+        margin: 0 6px;
+    }
+    .block-news .block-news-img .img-news {
+        height: auto;
+    }
+    .footer .footer-infor .col img {
+        width: 40px;
+    }
+    .movie-dt-showtime {
+        .nav-tabs .nav-link {
+            padding: 0 8px;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .cinema-block .cinema-inner .show-logo .nav-pills .nav-link {
+        margin: 0 4px;
+    }
+}

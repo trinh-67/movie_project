@@ -1,0 +1,47 @@
+.admin-main {
+    padding-top: 30px;
+}
+.profile-admin {
+    margin-bottom: 50px;
+    .nav-pills {
+        border-bottom: 1px solid #dee2e6;
+        .nav-link {
+            color: #000;
+            margin-bottom: -1px;
+            border: 1px solid transparent;
+            &.active {
+                background-color: #fff;
+                border-color: #dee2e6 #dee2e6 #fff;
+                color: #ec7532; 
+            }
+        }
+    }
+    thead {
+        background: #f8f9fa;
+        th {
+            border: 1px solid #dee2e6; 
+            border-bottom: none;
+        }
+    }
+    td {
+        border: 1px solid #dee2e6; 
+    }
+    .form-profile {
+        .inner-btn {
+            display: block;
+            margin: 20px auto 0;
+            .btn-all-form {
+                background: linear-gradient(to right, #fbbd61, #ec7532);
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                padding: 7px 25px;
+                color: #fff;
+                font-weight: 600;
+                width: 200px;
+            }
+        }
+    }
+}

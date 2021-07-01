@@ -1,0 +1,182 @@
+.chooseseat {
+    margin: 0 15px;
+    position: relative;
+    .seatnumber {
+        .seattitle {
+            box-shadow: -10px 0 15px rgba(0,0,0,0.7);
+            padding: 20px 30px;
+            margin: 0 -15px 20px;
+            .titleleft {
+                display: flex;
+            }
+            .ttl2 {
+                color: #ec7532;
+                font-size: 16px;
+            }
+            .ttl3 {
+                color: #000;
+                font-size: 16px;
+                margin-left: 30px;
+            }
+            .user {
+                color: #ec7532; 
+            }
+            .out {
+                color: #000;
+            }
+            .out {
+                font-style: italic;
+            }
+        }
+    }
+    .chooseseat-infor {
+        .infor-theater {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            .infor-left {
+                display: flex;
+                .logoimg {
+                    max-width: 70px;
+                    margin-right: 15px;
+                }
+                .infor-theater-it {
+                    font-size: 13px;
+                }
+            }
+            .chooseseat-time {
+                text-align: center;
+                span {
+                    color: #ec7532;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .bookseat {
+            padding: 0 100px;
+            margin-bottom: 40px;
+            text-align: center;
+            .seat {
+               width: 35px;
+               height: 35px;
+               margin: 4px;
+               border: none;
+               border-radius: 5px;
+               -webkit-border-radius: 5px;
+               -moz-border-radius: 5px;
+               -ms-border-radius: 5px;
+               -o-border-radius: 5px;
+               background: rgb(104, 101, 101);
+               color: #fff;
+               cursor: pointer;
+               padding: 0; 
+               
+            }
+            .status-seat {
+                background: rgb(104, 101, 101); 
+            }
+            .status-choose {
+                background: rgb(26, 184, 26)!important;
+            }
+            .status-someone {
+                background: #d9d5d5 !important;
+                cursor: no-drop;
+                color: #eee;
+            }
+            .seatvip {
+                background: rgb(177, 91, 9);  
+            }
+            .setbookticket {
+                background: whitesmoke!important;
+                cursor: no-drop!important;
+                color: #000;
+            }
+        }
+        .chooseseat-note {
+            .infor-seat {
+                text-align: center;
+            }
+            .status {
+               width: 15px;
+               height: 15px;
+               display: block;
+               border-radius: 4px;
+               -webkit-border-radius: 4px;
+               -moz-border-radius: 4px;
+               -ms-border-radius: 4px;
+               -o-border-radius: 4px;
+               margin: 5px auto 0;
+            }
+            .status-seat {
+                background: rgb(104, 101, 101); 
+            }
+            .status-choose {
+                background: rgb(26, 184, 26);
+            }
+            .status-someone {
+                background: whitesmoke;
+            }
+            .seatvip {
+                background: rgb(177, 91, 9);
+            }
+        }
+    }
+    .chooseseat-buy {
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        position: absolute;
+        right: 0;
+        height: 100%;
+        padding-top: 5px;
+        margin-right: -15px;
+        .ttl-4 {
+            border-bottom: 1px solid #eee;
+            color: #44c020;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+        }
+        .informovie {
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            p {
+                margin-bottom: 5px;
+            }
+        }
+        .form-buy {
+            .form-control {
+                border: none;
+                border-bottom: 1px solid #ced4da;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+                padding: 8px 0;
+                line-height: auto;
+                height: auto;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .btn-buy {
+                background: #28a745;
+                display: block;
+                color: #fff;
+                padding: 7px 10px;
+                width: 100%;
+                margin-bottom: 10px;
+                margin-top: 80px;
+                text-align: center;
+            }
+            .notification {
+                font-weight: 600;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+}
+

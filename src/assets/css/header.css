@@ -1,0 +1,38 @@
+.header .navbar-collapse {
+  flex-direction: row-reverse;
+}
+
+.header .navbar-collapse .nav-item {
+  position: relative;
+}
+
+.header .navbar-collapse .nav-item.active::after {
+  width: 100%;
+}
+
+.header .navbar-collapse .nav-item:hover::after {
+  width: 100%;
+}
+
+.header .navbar-collapse .nav-item::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #fbbd61, #ec7532);
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.header .navbar-collapse .nav-item .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 20px 10px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=header.css.map */
