@@ -6,7 +6,7 @@
 
 - Frontend for movie platform `urTicket` is a web application that allows users to view, search, review and booking tickets for movies.
 - React - A Javascript library for building user interfaces.
-- TailwindCSS - Rapidly build modern websites without ever leaving your HTML.
+- Rapidly build modern websites without ever leaving your HTML.
 - Material UI - A set of React components that implement Google's Material Design.
 - Axios - A Promise based HTTP client for the browser and node.js.
 - Redux - A predictable state container for JavaScript apps. With Redux Toolkit you can easily add middleware, enhancers, and it is intended to be the standard way to write Redux logic.
@@ -14,7 +14,7 @@
 
 ## ⚡ Features:
 
-- Authentication: Login, Register, Logout, Forgot password, Reset password.
+- Authentication: Login, Register, Logout
 - List movies: View list of movies playing, movies coming soon
 - Discover movies: View list of movies by genre, search movies
 - Quick booking tickets for movies
